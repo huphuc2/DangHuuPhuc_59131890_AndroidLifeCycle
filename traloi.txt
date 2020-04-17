@@ -1,0 +1,6 @@
+Câu 4: OnPause() -> OnStop() -> OnDestroy() -> OnCreate() -> OnStart() -> OnResume().
+Câu 5: OnPause() -> OnStop() -> OnRestart() -> OnStart() -> OnResume().
+Câu 6: Nếu cần lưu thông tin của ứng dụng để khôi phục lại trạng thái hiển thị của ứng dụng
+khi chạy lại ứng dụng thì cần phải thực hiện trong phương thức vòng đời OnPause(). Vì theo như các sự
+kiện trong vòng đời của một activity thì onPause() là phương thức được gọi trước khi tiến trình bị hủy.
+Mấy phương thức khác thì không.
